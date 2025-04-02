@@ -21,4 +21,16 @@ let myName = "Donovan" // String begins with ", ', ` and contains characters.
 const theSky = "is blue"
 
 // var - is mutable, and is contained in the global scope.  
-//It receives the super power of hoisting, 
+// It receives the super power of hoisting
+
+// Primitive values, are the most generic values.  Types of data in their simplest form.
+console.log(typeof myName, "<<<<<< This is me checking the variable myName")
+console.log(" This is a >>", typeof 1);
+console.log("This if a >>", typeof 12.5); 
+// javascript does not distinguish between numbers and floats.  A float is any number with a decimal.
+console.log("This is a >>", typeof true);
+console.log("This is >>", typeof null); // this is the developer setting this value explicity.
+console.log("This is >>", typeof undefined); // this is random.
+
+// Everything in javascript is true, except
+// "", 0, null, undefined, false, NaN - Not a Number
